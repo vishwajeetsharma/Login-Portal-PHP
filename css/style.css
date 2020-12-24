@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: century;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Earth.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+  color: #fff;
+  background-repeat: none;
+}
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  transition: 0.6s ease;
+}
+.menu ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.active {
+  background-color: #fff;
+  color: #000 !important;
+}
+.title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: #fff;
+}
+.catagries {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  translate: transform(-50%, -50%);
+}
+.catagries ul {
+  list-style-type: none;
+  line-height: 100px;
+  height: 100px;
+}
+.catagries ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 20px;
+  transition: 0.6s ease;
+}
+.catagries ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.catagries h1 {
+  color: #fff;
+}
+.catagries ul li {
+  height: 50px;
+  text-align: center;
+}
+.social {
+  float: left;
+  margin-top: 13%;
+  margin-left: 5px;
+}
+.social ul {
+  list-style-type: none;
+  line-height: 100px;
+  height: 100px;
+}
+.social ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 20px;
+  transition: 0.6s ease;
+}
+.social h1 {
+  color: #fff;
+}
+.social ul li {
+  height: 50px;
+  text-align: center;
+}
+.social ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btn {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  translate: transform(-50%, -50%);
+}
+.btn a {
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 20px;
+  border-radius: 15px;
+  transition: 0.6s ease;
+  margin-right: 5px;
+}
+.btn a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.why {
+  position: absolute;
+  top: 60%;
+  left: 05%;
+  translate: transform(-50%, -50%);
+}
+.why h3 {
+  font-size: 25px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+.why p {
+  font-size: 20px;
+}
+form {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  translate: transform(-50%, -50%);
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 50px 50px;
+  background: rgba(00, 50, 20, 0.6);
+}
+form input {
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  height: 30px;
+  margin-top: 10px;
+  border: 0px transparent;
+  border-bottom: 1px solid #fff !important;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 15px;
+}
+.button {
+  height: 50px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 7px 20px;
+  transition: 0.6s ease;
+  border-radius: 8px;
+  padding-left: 47.5px;
+  padding-right: 47.5px;
+  text-align: center;
+  font-size: 20px;
+}
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.heads {
+  position: absolute;
+  top: 18%;
+  left: 42%;
+  translate: transform(-50%, -50%);
+}
+.text p {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  font-size: 20px;
+}
+.text p a {
+  color: #fff;
+}
+.out {
+  position: absolute;
+  top: 95%;
+  left: 90%;
+}
+.out a {
+  background: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+.out a:hover {
+  color: #ff0000;
+}
+::placeholder {
+  color: #d2d2d2;
+}
+.logo {
+  position: absolute;
+  top: 02%;
+  left: 01%;
+}
+.logo h1 {
+  color: #fff;
+  font-family: sans-serif !important;
+  border-radius: 20px;
+  border-top: 2px solid #00ff00;
+  border-right: 2px solid #00ff00;
+  border-bottom: 2px solid #ff0000;
+  border-left: 2px solid #ff0000;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+.why p a {
+  color: #2222ff;
+}
+.© {
+  position: absolute;
+  top: 100%;
+  left: 00%;
+  font-size: 10px;
+}
+.© p {
+  background-color: grey;
+  border-radius: 05px;
+  border: 0.7px solid #fff;
+}
+.© p a {
+  color: #2222ff;
+}
+.titles {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.titles h1 {
+  color: #fff;
+}
+form h3 a {
+  color: #2222ff;
+}
+.content {
+  height: auto;
+  width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 27%;
+}
